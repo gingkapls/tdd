@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+       "lib": [
+          "esnext",
+          "DOM",
+       ],
+       "target": "es6",
+       "noImplicitAny": true,
+       "strictNullChecks": true,
+       "module": "commonjs",
+       "moduleResolution": "node",
+       "outDir": "./build",
+       "sourceMap": true
+    }
+ }
