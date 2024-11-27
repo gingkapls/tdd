@@ -10,15 +10,11 @@ describe("reverse a string", () => {
     expect(reverseString("hello world")).toBe("dlrow olleh");
   });
 
-   test("reverse numbers", () => {
+  test("reverse numbers", () => {
     expect(reverseString("1234")).toBe("4321");
   });
 
   test("reverse multiple numbers", () => {
     expect(reverseString("1234 5678")).toBe("8765 4321");
   });
-
-
- 
-
 });

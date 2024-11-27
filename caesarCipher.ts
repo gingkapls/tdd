@@ -1,9 +1,11 @@
 const isUpperAlpha = (c: string): boolean =>
-  (c.length === 1 && c.charCodeAt(0) >= "A".charCodeAt(0)) &&
+  c.length === 1 &&
+  c.charCodeAt(0) >= "A".charCodeAt(0) &&
   c.charCodeAt(0) <= "Z".charCodeAt(0);
 
 const isLowerAlpha = (c: string): boolean =>
-  (c.length === 1 && c.charCodeAt(0) >= "a".charCodeAt(0)) &&
+  c.length === 1 &&
+  c.charCodeAt(0) >= "a".charCodeAt(0) &&
   c.charCodeAt(0) <= "z".charCodeAt(0);
 
 const clampChar = (c: string, key: number): string => {

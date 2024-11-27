@@ -12,7 +12,7 @@ const analyzeArray = (arr: (number | undefined)[]): Analysis => {
     max: arr.at(0) ?? 0,
     length: arr.length,
   };
-  
+
   arr.forEach((v) => {
     result.average += v ?? 0;
     result.min = Math.min(result.min, v ?? result.min);
